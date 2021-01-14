@@ -1,0 +1,17 @@
+DATABASE= "bi"
+USER= "biuser" 
+PASSWORD= "password" 
+HOST= "localhost"
+
+reviews_names = "listing_id,review_id,date,reviewer_id,reviewer_name,comments"
+calendar_names = "listing_id,date,available,price,adjusted_price,minimum_nights,maximum_nights"
+logs_names = "listing_id,calendar_updated,calendar_last_scraped,scrape_id,last_scraped"
+host_listing_map_names = "host_id,listing_id"
+host_names = "host_id,host_name,host_since,host_location,host_response_time,host_response_rate,host_is_superhost,host_neighbourhood,host_listings_count,host_total_listings_count,host_verifications,host_has_profile_pic,host_identity_verified,calculated_host_listings_count,calculated_host_listings_count_entire_homes,calculated_host_listings_count_private_rooms,calculated_host_listings_count_shared_rooms,host_about"
+price_names = "listing_id,cleaning_fee,extra_people,price,security_deposit,weekly_price,monthly_price,currency"
+location_names = "listing_id,city,country,country_code,is_location_exact,latitude,longitude,smart_location,state,street,zipcode,neighbourhood"
+facilities_names = "listing_id,cancellation_policy,is_business_travel_ready,license,market,require_guest_phone_verification,require_guest_profile_picture,requires_license,access,experiences_offered,interaction,notes,transit"
+properties_names = "listing_id,accommodates,amenities,bathrooms,bedrooms,beds,bed_type,property_type,room_type,square_feet,space,summary,description"
+booking_names = "listing_id,availability_30,availability_60,availability_90,availability_365,has_availability,instant_bookable,minimum_nights,maximum_nights,minimum_minimum_nights,maximum_minimum_nights,minimum_maximum_nights,maximum_maximum_nights,minimum_nights_avg_ntm,maximum_nights_avg_ntm"
+rating_names = "listing_id,first_review,last_review,number_of_reviews,number_of_reviews_ltm,review_scores_rating,review_scores_accuracy,review_scores_cleanliness,review_scores_checkin,review_scores_communication,review_scores_location,review_scores_value,reviews_per_month"
+
