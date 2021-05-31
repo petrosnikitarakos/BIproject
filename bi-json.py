@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Athanasios Tsagkris
+@author: Petros Nikitarakos
 """
 
 import urllib.request, json, psycopg2,config
